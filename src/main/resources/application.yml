@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: "default"
+
+---
+# common group
+spring:
+  config:
+    activate:
+      on-profile: default
+
+app:
+  http:
+    auth-token-header:
+      name: Authorization
+    auth-token: fdasrv34atdzbt4zeex7y
